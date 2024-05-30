@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(33, 1, 1, 1);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.participantes{
+    position: absolute;
+    bottom: 190px;
+    right: 30px;
+}
+.participantes:hover{
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: 16px 17px 1px -3px rgba(0,0,0,1);
+    -webkit-box-shadow: 16px 17px 1px -3px rgba(0,0,0,1);
+    -moz-box-shadow: 16px 17px 1px -3px rgba(0,0,0,1);
+}
+h1{
+    color: white;
+    position: absolute;
+    bottom: 435px;
+    left: 40px;
+    font-size: 50px;    
+}
+.eventos{
+    position: absolute;
+    left: 10px;
+    bottom: 110px;
+    margin: 30px;
+}
+.eventos:hover{
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: -12px 17px 1px -3px rgba(0,0,0,1);
+    -webkit-box-shadow: -12px 17px 1px -3px rgba(0,0,0,1);
+    -moz-box-shadow: -12px 17px 1px -3px rgba(0,0,0,1);
+}
+h2{
+    color: white;
+    position: absolute;
+    bottom: 440px;
+    right: 205px;
+    font-size: 40px;
+}
+
+.spotify{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+.spotify:hover{
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: 16px 17px 1px -3px rgba(0,0,0,1);
+    -webkit-box-shadow: 16px 17px 1px -3px rgba(0,0,0,1);
+    -moz-box-shadow: 16px 17px 1px -3px rgba(0,0,0,1);
+}

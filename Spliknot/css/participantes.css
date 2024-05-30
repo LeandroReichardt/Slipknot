@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(33, 1, 1, 1);
+}
+
+header,.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.participantes,.coreytaylor,.eloycasagrande,.mickthomson, .shawncrahan, .jimroot,.sidwilsons,.alessandroventurella,.michaelpfaff,.jeffkarnowski{
+    height: 250px;
+    width: 350px;
+    margin: 30px;
+}
+.coreytaylor:hover,.eloycasagrande:hover, .jeffkarnowski:hover, .michaelpfaff:hover, .alessandroventurella:hover, .sidwilsons:hover, .jimroot:hover,.shawncrahan:hover,.mickthomson:hover{
+    transition: 1s;
+    box-shadow: 16px 17px 1px -3px rgba(0,0,0,1);
+    -webkit-box-shadow: 16px 17px 1px -3px rgba(0,0,0,1);
+    -moz-box-shadow: 16px 17px 1px -3px rgba(0,0,0,1);
+}
